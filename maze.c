@@ -194,6 +194,7 @@ void control(cronometro_t *tempo) {
         if (mapa[x][y] == 4) {
             printf("Parabens, você completou o jogo!\n");
             system("pause");
+            system("cls");
             jogoativo = 0;
         }
     } else if (GetAsyncKeyState(VK_UP) & 0x8000 && x > 0 && (mapa[x - 1][y] == 0 || mapa[x - 1][y] == 4)) {
@@ -201,6 +202,7 @@ void control(cronometro_t *tempo) {
         if (mapa[x][y] == 4) {
             printf("Parabens, voce completou o jogo!\n");
             system("pause");
+            system("cls");
             jogoativo = 0;
         }
     } else if (GetAsyncKeyState(VK_RIGHT) & 0x8000 && y < W - 1 && (mapa[x][y + 1] == 0 || mapa[x][y + 1] == 4)) {
@@ -208,6 +210,7 @@ void control(cronometro_t *tempo) {
         if (mapa[x][y] == 4) {
             printf("Parabens, voce completou o jogo!\n");
             system("pause");
+            system("cls");
             jogoativo = 0;
         }
     } else if (GetAsyncKeyState(VK_DOWN) & 0x8000 && x < H - 1 && (mapa[x + 1][y] == 0 || mapa[x + 1][y] == 4)) {
@@ -215,6 +218,7 @@ void control(cronometro_t *tempo) {
         if (mapa[x][y] == 4) {
             printf("Parabens, voce completou o jogo!\n");
             system("pause");
+            system("cls");
             jogoativo = 0;
         }
     } else if (GetAsyncKeyState(VK_ESCAPE) & 0x8000) {
