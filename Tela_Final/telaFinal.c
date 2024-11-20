@@ -28,6 +28,13 @@ void lerEstatisticas() {
 void menu() {
     int opcao;
     system("color 05"); // Define cor do console
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    SetConsoleTitle("Maze Game");
+=======
+>>>>>>> a9e33ea9c59c27dcd1402574d1549e9659448059
+>>>>>>> 23edbbd (Fases com título indicando o número da fase. Janelas do console nomeadas de acordo com a fase. Correção do labirinto 5)
 
     printf("Parabens por complentar o jogo!\nCaso queria jogar alguma fase novamente selecione o numero da fase abaixo: \n\n");
     do {

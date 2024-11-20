@@ -54,10 +54,24 @@ void setColor(int color) {
 // Menu principal do jogo
 void menu(usuarios_t **listausuarios) {
     int opcao;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    system("color 05"); // Define cor do console]
+    SetConsoleTitle("Maze Game | Fase 4");
+
+    do {
+        printf("============== MAZE GAME | FASE 4 ==============\n");
+=======
+>>>>>>> 23edbbd (Fases com título indicando o número da fase. Janelas do console nomeadas de acordo com a fase. Correção do labirinto 5)
     system("color 05"); // Define cor do console
 
     do {
         printf("============== MAZE GAME ==============\n");
+<<<<<<< HEAD
+=======
+>>>>>>> a9e33ea9c59c27dcd1402574d1549e9659448059
+>>>>>>> 23edbbd (Fases com título indicando o número da fase. Janelas do console nomeadas de acordo com a fase. Correção do labirinto 5)
         printf("1 - Iniciar fase\n");
         printf("2 - Estatisticas\n");
         printf("3 - Ir para proxima fase\n");
