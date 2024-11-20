@@ -61,6 +61,7 @@ void setColor(int color) {
 void menu(usuarios_t **listausuarios) {
     int opcao;
     system("color 05"); // Define cor do console
+    SetConsoleTitle("Maze Game | Fase x");
 
     do {
         printf("============== MAZE GAME ==============\n");

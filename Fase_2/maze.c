@@ -59,9 +59,10 @@ void setColor(int color) {
 void menu(usuarios_t **listausuarios) {
     int opcao;
     system("color 05"); // Define cor do console
+    SetConsoleTitle("Maze Game | Fase 2");
 
     do {
-        printf("============== MAZE GAME ==============\n");
+        printf("============== MAZE GAME | FASE 2 ==============\n");
         printf("1 - Iniciar fase\n");
         printf("2 - Estatisticas\n");
         printf("3 - Ir para proxima fase\n");
